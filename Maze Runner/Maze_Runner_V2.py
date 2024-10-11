@@ -6,8 +6,8 @@ m=maze()
 m.CreateMaze(loopPercent=100)
 
 a=agent(m, footprints=True,filled=True)
-b=agent(m,5,5, footprints=True,color='red')
-c=agent(m,4,1, footprints=True,color='red',shape='arrow')
+# b=agent(m,5,5, footprints=True,color='red')
+# c=agent(m,4,1, footprints=True,color='red',shape='arrow')
 
 m.enableArrowKey(a)
 # m.enableWASD(b)
